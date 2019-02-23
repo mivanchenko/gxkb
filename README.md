@@ -97,7 +97,7 @@ Configuration is done via config file: `.config/gxkb/gxkb.cfg`
 
 The most interesting options are:  
 `layouts=us,ru,ua`  
-`toggle_option=grp:alt_shift_toggle,grp_led:scroll,terminate:ctrl_alt_bksp`
+`toggle_option=grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp`
 
 Instead of `grp:alt_shift_toggle` you can use whatever the following command gives you:  
 `grep grp:.*toggle /usr/share/X11/xkb/rules/base.lst`  
